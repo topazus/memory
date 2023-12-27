@@ -14,5 +14,4 @@ if(NOT MSVC)
 target_compile_features(foonathan_memory_node_size_debugger PUBLIC cxx_constexpr)
 endif()
 
-install(TARGETS foonathan_memory_node_size_debugger EXPORT foonathan_memoryTargets
-                                                    RUNTIME DESTINATION ${FOONATHAN_MEMORY_RUNTIME_INSTALL_DIR})
+install(TARGETS foonathan_memory_node_size_debugger RUNTIME DESTINATION ${FOONATHAN_MEMORY_RUNTIME_INSTALL_DIR})
